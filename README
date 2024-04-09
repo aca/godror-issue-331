@@ -2,7 +2,7 @@
 
 Run docker oracle image based on https://github.com/gvenzl/oci-oracle-free
 
-    bash ./image/run.sh
+    bash ./run-oracle-free.sh
 
 In nix
 
