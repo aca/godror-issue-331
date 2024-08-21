@@ -1,0 +1,16 @@
+# godror-issue-331
+
+Run docker oracle image based on https://github.com/gvenzl/oci-oracle-free
+
+    bash ./run-oracle-free.sh
+
+In nix
+
+    export NIXPKGS_ALLOW_UNFREE=1
+    nix build --impure
+    ./result/bin/myapp
+
+In non-nix
+
+    # setup proper ORACLE_HOME 
+    go run .

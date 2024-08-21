@@ -1,0 +1,351 @@
+2024/04/09 16:36:51 start
+2024/04/09 16:36:51 enqueue
+ODPI [55779] 2024-04-09 16:36:51.181: ODPI-C 5.2.0
+ODPI [55779] 2024-04-09 16:36:51.181: debugging messages initialized at level 92
+ODPI [55779] 2024-04-09 16:36:51.181: fn start dpiContext_createWithParams
+ODPI [55779] 2024-04-09 16:36:51.181: Context Parameters:
+ODPI [55779] 2024-04-09 16:36:51.181: Environment Variables:
+ODPI [55779] 2024-04-09 16:36:51.181:     LD_LIBRARY_PATH => "/nix/store/afv6jq975jd578pv5430dzsissxh5xaz-oracle-instantclient-19.10.0.0.0-lib/lib"
+ODPI [55779] 2024-04-09 16:36:51.181: check module directory
+ODPI [55779] 2024-04-09 16:36:51.181: module name is ./result/bin/myapp
+ODPI [55779] 2024-04-09 16:36:51.181: load in dir ./result/bin
+ODPI [55779] 2024-04-09 16:36:51.181: load with name ./result/bin/libclntsh.so
+ODPI [55779] 2024-04-09 16:36:51.181: load by OS failure: ./result/bin/libclntsh.so: cannot open shared object file: No such file or directory
+ODPI [55779] 2024-04-09 16:36:51.181: load with OS search heuristics
+ODPI [55779] 2024-04-09 16:36:51.181: load with name libclntsh.so
+ODPI [55779] 2024-04-09 16:36:51.185: load by OS successful
+ODPI [55779] 2024-04-09 16:36:51.186: validating loaded library
+ODPI [55779] 2024-04-09 16:36:51.187: fn end dpiContext_createWithParams -> 0
+ODPI [55779] 2024-04-09 16:36:51.187: fn start dpiContext_getClientVersion(0x23226790)
+ODPI [55779] 2024-04-09 16:36:51.187: fn end dpiContext_getClientVersion(0x23226790) -> 0
+ODPI [55783] 2024-04-09 16:36:51.187: fn start dpiContext_initCommonCreateParams(0x23226790)
+ODPI [55783] 2024-04-09 16:36:51.187: fn end dpiContext_initCommonCreateParams(0x23226790) -> 0
+ODPI [55783] 2024-04-09 16:36:51.187: fn start dpiContext_initConnCreateParams(0x23226790)
+ODPI [55783] 2024-04-09 16:36:51.187: fn end dpiContext_initConnCreateParams(0x23226790) -> 0
+ODPI [55783] 2024-04-09 16:36:51.187: fn start dpiConn_create(0x23226790)
+ODPI [55783] 2024-04-09 16:36:51.438: fn end dpiConn_create(0x23226790) -> 0
+ODPI [55783] 2024-04-09 16:36:51.438: fn start dpiConn_getDbDomain(0xffff4000c660)
+ODPI [55783] 2024-04-09 16:36:51.438: fn end dpiConn_getDbDomain(0xffff4000c660) -> 0
+ODPI [55783] 2024-04-09 16:36:51.438: fn start dpiConn_getEdition(0xffff4000c660)
+ODPI [55783] 2024-04-09 16:36:51.438: fn end dpiConn_getEdition(0xffff4000c660) -> 0
+ODPI [55783] 2024-04-09 16:36:51.438: fn start dpiConn_getDbName(0xffff4000c660)
+ODPI [55783] 2024-04-09 16:36:51.438: fn end dpiConn_getDbName(0xffff4000c660) -> 0
+ODPI [55783] 2024-04-09 16:36:51.438: fn start dpiConn_getServiceName(0xffff4000c660)
+ODPI [55783] 2024-04-09 16:36:51.438: fn end dpiConn_getServiceName(0xffff4000c660) -> 0
+ODPI [55783] 2024-04-09 16:36:51.438: fn start dpiConn_prepareStmt(0xffff4000c660)
+ODPI [55783] 2024-04-09 16:36:51.438: SQL SELECT SESSIONTIMEZONE as dbTZ, NVL(TO_CHAR(SYSTIMESTAMP, 'tzr'), TO_CHAR(SYSTIMESTAMP, 'TZH:TZM')) AS dbOSTZ FROM DUAL
+ODPI [55783] 2024-04-09 16:36:51.438: fn end dpiConn_prepareStmt(0xffff4000c660) -> 0
+ODPI [55783] 2024-04-09 16:36:51.438: fn start dpiStmt_getInfo(0xffff400bbf90)
+ODPI [55783] 2024-04-09 16:36:51.438: fn end dpiStmt_getInfo(0xffff400bbf90) -> 0
+ODPI [55783] 2024-04-09 16:36:51.439: fn start dpiConn_setCallTimeout(0xffff4000c660)
+ODPI [55783] 2024-04-09 16:36:51.439: fn end dpiConn_setCallTimeout(0xffff4000c660) -> 0
+ODPI [55783] 2024-04-09 16:36:51.439: fn start dpiStmt_setFetchArraySize(0xffff400bbf90)
+ODPI [55783] 2024-04-09 16:36:51.439: fn end dpiStmt_setFetchArraySize(0xffff400bbf90) -> 0
+ODPI [55783] 2024-04-09 16:36:51.439: fn start dpiStmt_setPrefetchRows(0xffff400bbf90)
+ODPI [55783] 2024-04-09 16:36:51.439: fn end dpiStmt_setPrefetchRows(0xffff400bbf90) -> 0
+ODPI [55783] 2024-04-09 16:36:51.439: fn start dpiStmt_execute(0xffff400bbf90)
+ODPI [55783] 2024-04-09 16:36:51.453: fn end dpiStmt_execute(0xffff400bbf90) -> 0
+ODPI [55783] 2024-04-09 16:36:51.453: fn start dpiStmt_getQueryInfo(0xffff400bbf90)
+ODPI [55783] 2024-04-09 16:36:51.453: fn end dpiStmt_getQueryInfo(0xffff400bbf90) -> 0
+ODPI [55783] 2024-04-09 16:36:51.453: fn start dpiConn_newVar(0xffff4000c660)
+ODPI [55783] 2024-04-09 16:36:51.453: fn end dpiConn_newVar(0xffff4000c660) -> 0
+ODPI [55783] 2024-04-09 16:36:51.453: fn start dpiStmt_define(0xffff400bbf90)
+ODPI [55783] 2024-04-09 16:36:51.453: fn end dpiStmt_define(0xffff400bbf90) -> 0
+ODPI [55783] 2024-04-09 16:36:51.453: fn start dpiStmt_getQueryInfo(0xffff400bbf90)
+ODPI [55783] 2024-04-09 16:36:51.453: fn end dpiStmt_getQueryInfo(0xffff400bbf90) -> 0
+ODPI [55783] 2024-04-09 16:36:51.453: fn start dpiConn_newVar(0xffff4000c660)
+ODPI [55783] 2024-04-09 16:36:51.453: fn end dpiConn_newVar(0xffff4000c660) -> 0
+ODPI [55783] 2024-04-09 16:36:51.453: fn start dpiStmt_define(0xffff400bbf90)
+ODPI [55783] 2024-04-09 16:36:51.453: fn end dpiStmt_define(0xffff400bbf90) -> 0
+ODPI [55783] 2024-04-09 16:36:51.453: fn start dpiStmt_addRef(0xffff400bbf90)
+ODPI [55783] 2024-04-09 16:36:51.453: fn end dpiStmt_addRef(0xffff400bbf90) -> 0
+ODPI [55783] 2024-04-09 16:36:51.453: fn start dpiConn_setCallTimeout(0xffff4000c660)
+ODPI [55783] 2024-04-09 16:36:51.453: fn end dpiConn_setCallTimeout(0xffff4000c660) -> 0
+ODPI [55783] 2024-04-09 16:36:51.453: fn start dpiConn_setCallTimeout(0xffff4000c660)
+ODPI [55783] 2024-04-09 16:36:51.453: fn end dpiConn_setCallTimeout(0xffff4000c660) -> 0
+ODPI [55783] 2024-04-09 16:36:51.453: fn start dpiStmt_fetchRows(0xffff400bbf90)
+ODPI [55783] 2024-04-09 16:36:51.454: fn end dpiStmt_fetchRows(0xffff400bbf90) -> 0
+ODPI [55783] 2024-04-09 16:36:51.454: fn start dpiConn_setCallTimeout(0xffff4000c660)
+ODPI [55783] 2024-04-09 16:36:51.454: fn end dpiConn_setCallTimeout(0xffff4000c660) -> 0
+godror WARNING: discrepancy between SESSIONTIMEZONE ("+09:00"=900) and SYSTIMESTAMP ("+00:00"=0) - set connection timezone, see https://github.com/godror/godror/blob/master/doc/timezone.md
+ODPI [55783] 2024-04-09 16:36:51.454: fn start dpiVar_release(0xffff400c0260)
+ODPI [55783] 2024-04-09 16:36:51.454: fn end dpiVar_release(0xffff400c0260) -> 0
+ODPI [55783] 2024-04-09 16:36:51.454: fn start dpiVar_release(0xffff400c3690)
+ODPI [55783] 2024-04-09 16:36:51.454: fn end dpiVar_release(0xffff400c3690) -> 0
+ODPI [55783] 2024-04-09 16:36:51.454: fn start dpiStmt_release(0xffff400bbf90)
+ODPI [55783] 2024-04-09 16:36:51.454: fn end dpiStmt_release(0xffff400bbf90) -> 0
+ODPI [55783] 2024-04-09 16:36:51.454: fn start dpiStmt_release(0xffff400bbf90)
+ODPI [55783] 2024-04-09 16:36:51.454: fn end dpiStmt_release(0xffff400bbf90) -> 0
+ODPI [55783] 2024-04-09 16:36:51.454: fn start dpiConn_prepareStmt(0xffff4000c660)
+ODPI [55783] 2024-04-09 16:36:51.454: SQL SET TRANSACTION READ WRITE
+ODPI [55783] 2024-04-09 16:36:51.454: fn end dpiConn_prepareStmt(0xffff4000c660) -> 0
+ODPI [55783] 2024-04-09 16:36:51.454: fn start dpiStmt_getInfo(0xffff400c3750)
+ODPI [55783] 2024-04-09 16:36:51.454: fn end dpiStmt_getInfo(0xffff400c3750) -> 0
+ODPI [55783] 2024-04-09 16:36:51.454: fn start dpiStmt_execute(0xffff400c3750)
+ODPI [55783] 2024-04-09 16:36:51.467: fn end dpiStmt_execute(0xffff400c3750) -> 0
+ODPI [55783] 2024-04-09 16:36:51.467: fn start dpiStmt_getRowCount(0xffff400c3750)
+ODPI [55783] 2024-04-09 16:36:51.467: fn end dpiStmt_getRowCount(0xffff400c3750) -> 0
+ODPI [55783] 2024-04-09 16:36:51.467: fn start dpiStmt_release(0xffff400c3750)
+ODPI [55783] 2024-04-09 16:36:51.467: fn end dpiStmt_release(0xffff400c3750) -> 0
+ODPI [55783] 2024-04-09 16:36:51.468: fn start dpiConn_getObjectType(0xffff4000c660)
+ODPI [55783] 2024-04-09 16:36:51.544: fn end dpiConn_getObjectType(0xffff4000c660) -> 0
+ODPI [55783] 2024-04-09 16:36:51.544: fn start dpiObjectType_getInfo(0xffff400c3430)
+ODPI [55783] 2024-04-09 16:36:51.544: fn end dpiObjectType_getInfo(0xffff400c3430) -> 0
+ODPI [55783] 2024-04-09 16:36:51.544: fn start dpiObjectType_getAttributes(0xffff400c3430)
+ODPI [55783] 2024-04-09 16:36:51.575: fn end dpiObjectType_getAttributes(0xffff400c3430) -> 0
+ODPI [55783] 2024-04-09 16:36:51.576: fn start dpiObjectAttr_getInfo(0xffff400c3510)
+ODPI [55783] 2024-04-09 16:36:51.576: fn end dpiObjectAttr_getInfo(0xffff400c3510) -> 0
+ODPI [55783] 2024-04-09 16:36:51.576: fn start dpiObjectAttr_getInfo(0xffff400c35b0)
+ODPI [55783] 2024-04-09 16:36:51.576: fn end dpiObjectAttr_getInfo(0xffff400c35b0) -> 0
+ODPI [55783] 2024-04-09 16:36:51.576: fn start dpiConn_newQueue(0xffff4000c660)
+ODPI [55783] 2024-04-09 16:36:51.576: fn end dpiConn_newQueue(0xffff4000c660) -> 0
+ODPI [55783] 2024-04-09 16:36:51.576: fn start dpiQueue_getEnqOptions(0xffff400c3810)
+ODPI [55783] 2024-04-09 16:36:51.576: fn end dpiQueue_getEnqOptions(0xffff400c3810) -> 0
+ODPI [55783] 2024-04-09 16:36:51.576: fn start dpiEnqOptions_setDeliveryMode(0xffff400c38a0)
+ODPI [55783] 2024-04-09 16:36:51.576: fn end dpiEnqOptions_setDeliveryMode(0xffff400c38a0) -> 0
+ODPI [55783] 2024-04-09 16:36:51.576: fn start dpiEnqOptions_setTransformation(0xffff400c38a0)
+ODPI [55783] 2024-04-09 16:36:51.576: fn end dpiEnqOptions_setTransformation(0xffff400c38a0) -> 0
+ODPI [55783] 2024-04-09 16:36:51.576: fn start dpiEnqOptions_setVisibility(0xffff400c38a0)
+ODPI [55783] 2024-04-09 16:36:51.576: fn end dpiEnqOptions_setVisibility(0xffff400c38a0) -> 0
+ODPI [55783] 2024-04-09 16:36:51.576: fn start dpiQueue_getDeqOptions(0xffff400c3810)
+ODPI [55783] 2024-04-09 16:36:51.576: fn end dpiQueue_getDeqOptions(0xffff400c3810) -> 0
+ODPI [55783] 2024-04-09 16:36:51.576: fn start dpiDeqOptions_setTransformation(0xffff400be3b0)
+ODPI [55783] 2024-04-09 16:36:51.576: fn end dpiDeqOptions_setTransformation(0xffff400be3b0) -> 0
+ODPI [55783] 2024-04-09 16:36:51.576: fn start dpiDeqOptions_setCondition(0xffff400be3b0)
+ODPI [55783] 2024-04-09 16:36:51.576: fn end dpiDeqOptions_setCondition(0xffff400be3b0) -> 0
+ODPI [55783] 2024-04-09 16:36:51.576: fn start dpiDeqOptions_setConsumerName(0xffff400be3b0)
+ODPI [55783] 2024-04-09 16:36:51.576: fn end dpiDeqOptions_setConsumerName(0xffff400be3b0) -> 0
+ODPI [55783] 2024-04-09 16:36:51.576: fn start dpiDeqOptions_setCorrelation(0xffff400be3b0)
+ODPI [55783] 2024-04-09 16:36:51.576: fn end dpiDeqOptions_setCorrelation(0xffff400be3b0) -> 0
+ODPI [55783] 2024-04-09 16:36:51.576: fn start dpiDeqOptions_setDeliveryMode(0xffff400be3b0)
+ODPI [55783] 2024-04-09 16:36:51.576: fn end dpiDeqOptions_setDeliveryMode(0xffff400be3b0) -> 0
+ODPI [55783] 2024-04-09 16:36:51.576: fn start dpiDeqOptions_setMode(0xffff400be3b0)
+ODPI [55783] 2024-04-09 16:36:51.576: fn end dpiDeqOptions_setMode(0xffff400be3b0) -> 0
+ODPI [55783] 2024-04-09 16:36:51.576: fn start dpiDeqOptions_setMsgId(0xffff400be3b0)
+ODPI [55783] 2024-04-09 16:36:51.576: fn end dpiDeqOptions_setMsgId(0xffff400be3b0) -> 0
+ODPI [55783] 2024-04-09 16:36:51.576: fn start dpiDeqOptions_setNavigation(0xffff400be3b0)
+ODPI [55783] 2024-04-09 16:36:51.576: fn end dpiDeqOptions_setNavigation(0xffff400be3b0) -> 0
+ODPI [55783] 2024-04-09 16:36:51.576: fn start dpiDeqOptions_setVisibility(0xffff400be3b0)
+ODPI [55783] 2024-04-09 16:36:51.576: fn end dpiDeqOptions_setVisibility(0xffff400be3b0) -> 0
+ODPI [55783] 2024-04-09 16:36:51.576: fn start dpiDeqOptions_setWait(0xffff400be3b0)
+ODPI [55783] 2024-04-09 16:36:51.576: fn end dpiDeqOptions_setWait(0xffff400be3b0) -> 0
+ODPI [55783] 2024-04-09 16:36:51.576: fn start dpiObjectType_createObject(0xffff400c3430)
+ODPI [55783] 2024-04-09 16:36:51.576: fn end dpiObjectType_createObject(0xffff400c3430) -> 0
+ODPI [55783] 2024-04-09 16:36:51.576: fn start dpiObject_setAttributeValue(0xffff400c38d0)
+ODPI [55783] 2024-04-09 16:36:51.594: fn end dpiObject_setAttributeValue(0xffff400c38d0) -> 0
+ODPI [55783] 2024-04-09 16:36:51.594: fn start dpiObject_setAttributeValue(0xffff400c38d0)
+ODPI [55783] 2024-04-09 16:36:51.610: fn end dpiObject_setAttributeValue(0xffff400c38d0) -> 0
+ODPI [55783] 2024-04-09 16:36:51.610: fn start dpiObject_setAttributeValue(0xffff400c38d0)
+ODPI [55783] 2024-04-09 16:36:51.610: fn end dpiObject_setAttributeValue(0xffff400c38d0) -> 0
+ODPI [55783] 2024-04-09 16:36:51.610: fn start dpiConn_newMsgProps(0xffff4000c660)
+ODPI [55783] 2024-04-09 16:36:51.610: fn end dpiConn_newMsgProps(0xffff4000c660) -> 0
+ODPI [55783] 2024-04-09 16:36:51.610: fn start dpiMsgProps_setDelay(0xffff400be2f0)
+ODPI [55783] 2024-04-09 16:36:51.610: fn end dpiMsgProps_setDelay(0xffff400be2f0) -> 0
+ODPI [55783] 2024-04-09 16:36:51.610: fn start dpiMsgProps_setExpiration(0xffff400be2f0)
+ODPI [55783] 2024-04-09 16:36:51.610: fn end dpiMsgProps_setExpiration(0xffff400be2f0) -> 0
+ODPI [55783] 2024-04-09 16:36:51.610: fn start dpiMsgProps_setPriority(0xffff400be2f0)
+ODPI [55783] 2024-04-09 16:36:51.610: fn end dpiMsgProps_setPriority(0xffff400be2f0) -> 0
+ODPI [55783] 2024-04-09 16:36:51.610: fn start dpiMsgProps_setPayloadObject(0xffff400be2f0)
+ODPI [55783] 2024-04-09 16:36:51.610: fn end dpiMsgProps_setPayloadObject(0xffff400be2f0) -> 0
+ODPI [55783] 2024-04-09 16:36:51.610: fn start dpiQueue_enqOne(0xffff400c3810)
+ODPI [55783] 2024-04-09 16:36:51.660: fn end dpiQueue_enqOne(0xffff400c3810) -> 0
+ODPI [55783] 2024-04-09 16:36:51.661: fn start dpiMsgProps_getMsgId(0xffff400be2f0)
+ODPI [55783] 2024-04-09 16:36:51.661: fn end dpiMsgProps_getMsgId(0xffff400be2f0) -> 0
+ODPI [55783] 2024-04-09 16:36:51.661: fn start dpiMsgProps_release(0xffff400be2f0)
+ODPI [55783] 2024-04-09 16:36:51.661: fn end dpiMsgProps_release(0xffff400be2f0) -> 0
+ODPI [55783] 2024-04-09 16:36:51.661: fn start dpiConn_commit(0xffff4000c660)
+ODPI [55783] 2024-04-09 16:36:51.687: fn end dpiConn_commit(0xffff4000c660) -> 0
+ODPI [55783] 2024-04-09 16:36:51.687: fn start dpiConn_getIsHealthy(0xffff4000c660)
+ODPI [55783] 2024-04-09 16:36:51.687: fn end dpiConn_getIsHealthy(0xffff4000c660) -> 0
+ODPI [55783] 2024-04-09 16:36:51.687: fn start dpiQueue_release(0xffff400c3810)
+ODPI [55783] 2024-04-09 16:36:51.687: fn end dpiQueue_release(0xffff400c3810) -> 0
+ODPI [55783] 2024-04-09 16:36:51.687: fn start dpiObjectAttr_release(0xffff400c3510)
+ODPI [55783] 2024-04-09 16:36:51.687: fn end dpiObjectAttr_release(0xffff400c3510) -> 0
+ODPI [55783] 2024-04-09 16:36:51.687: fn start dpiObjectAttr_release(0xffff400c35b0)
+ODPI [55783] 2024-04-09 16:36:51.687: fn end dpiObjectAttr_release(0xffff400c35b0) -> 0
+ODPI [55783] 2024-04-09 16:36:51.687: fn start dpiObjectType_release(0xffff400c3430)
+ODPI [55783] 2024-04-09 16:36:51.687: fn end dpiObjectType_release(0xffff400c3430) -> 0
+2024/04/09 16:36:51 enqueue
+ODPI [55783] 2024-04-09 16:36:51.687: fn start dpiConn_getIsHealthy(0xffff4000c660)
+ODPI [55783] 2024-04-09 16:36:51.687: fn end dpiConn_getIsHealthy(0xffff4000c660) -> 0
+ODPI [55783] 2024-04-09 16:36:51.688: fn start dpiConn_prepareStmt(0xffff4000c660)
+ODPI [55783] 2024-04-09 16:36:51.688: SQL SET TRANSACTION READ WRITE
+ODPI [55783] 2024-04-09 16:36:51.688: fn end dpiConn_prepareStmt(0xffff4000c660) -> 0
+ODPI [55783] 2024-04-09 16:36:51.688: fn start dpiStmt_getInfo(0xffff400c3920)
+ODPI [55783] 2024-04-09 16:36:51.688: fn end dpiStmt_getInfo(0xffff400c3920) -> 0
+ODPI [55783] 2024-04-09 16:36:51.688: fn start dpiStmt_execute(0xffff400c3920)
+ODPI [55783] 2024-04-09 16:36:51.706: fn end dpiStmt_execute(0xffff400c3920) -> 0
+ODPI [55783] 2024-04-09 16:36:51.706: fn start dpiStmt_getRowCount(0xffff400c3920)
+ODPI [55783] 2024-04-09 16:36:51.706: fn end dpiStmt_getRowCount(0xffff400c3920) -> 0
+ODPI [55783] 2024-04-09 16:36:51.706: fn start dpiStmt_release(0xffff400c3920)
+ODPI [55783] 2024-04-09 16:36:51.707: fn end dpiStmt_release(0xffff400c3920) -> 0
+ODPI [55783] 2024-04-09 16:36:51.707: fn start dpiConn_getObjectType(0xffff4000c660)
+ODPI [55783] 2024-04-09 16:36:51.767: fn end dpiConn_getObjectType(0xffff4000c660) -> 0
+ODPI [55783] 2024-04-09 16:36:51.768: fn start dpiObjectType_getInfo(0xffff400c39e0)
+ODPI [55783] 2024-04-09 16:36:51.768: fn end dpiObjectType_getInfo(0xffff400c39e0) -> 0
+ODPI [55783] 2024-04-09 16:36:51.768: fn start dpiObjectType_getAttributes(0xffff400c39e0)
+ODPI [55783] 2024-04-09 16:36:51.769: fn end dpiObjectType_getAttributes(0xffff400c39e0) -> 0
+ODPI [55783] 2024-04-09 16:36:51.769: fn start dpiObjectAttr_getInfo(0xffff400c3ac0)
+ODPI [55783] 2024-04-09 16:36:51.769: fn end dpiObjectAttr_getInfo(0xffff400c3ac0) -> 0
+ODPI [55783] 2024-04-09 16:36:51.769: fn start dpiObjectAttr_getInfo(0xffff400c3b60)
+ODPI [55783] 2024-04-09 16:36:51.769: fn end dpiObjectAttr_getInfo(0xffff400c3b60) -> 0
+ODPI [55783] 2024-04-09 16:36:51.769: fn start dpiConn_newQueue(0xffff4000c660)
+ODPI [55783] 2024-04-09 16:36:51.769: fn end dpiConn_newQueue(0xffff4000c660) -> 0
+ODPI [55783] 2024-04-09 16:36:51.769: fn start dpiQueue_getEnqOptions(0xffff400c3c00)
+ODPI [55783] 2024-04-09 16:36:51.769: fn end dpiQueue_getEnqOptions(0xffff400c3c00) -> 0
+ODPI [55783] 2024-04-09 16:36:51.769: fn start dpiEnqOptions_setDeliveryMode(0xffff400c3c90)
+ODPI [55783] 2024-04-09 16:36:51.769: fn end dpiEnqOptions_setDeliveryMode(0xffff400c3c90) -> 0
+ODPI [55783] 2024-04-09 16:36:51.769: fn start dpiEnqOptions_setTransformation(0xffff400c3c90)
+ODPI [55783] 2024-04-09 16:36:51.769: fn end dpiEnqOptions_setTransformation(0xffff400c3c90) -> 0
+ODPI [55783] 2024-04-09 16:36:51.769: fn start dpiEnqOptions_setVisibility(0xffff400c3c90)
+ODPI [55783] 2024-04-09 16:36:51.769: fn end dpiEnqOptions_setVisibility(0xffff400c3c90) -> 0
+ODPI [55783] 2024-04-09 16:36:51.769: fn start dpiQueue_getDeqOptions(0xffff400c3c00)
+ODPI [55783] 2024-04-09 16:36:51.769: fn end dpiQueue_getDeqOptions(0xffff400c3c00) -> 0
+ODPI [55783] 2024-04-09 16:36:51.769: fn start dpiDeqOptions_setTransformation(0xffff400be3b0)
+ODPI [55783] 2024-04-09 16:36:51.769: fn end dpiDeqOptions_setTransformation(0xffff400be3b0) -> 0
+ODPI [55783] 2024-04-09 16:36:51.769: fn start dpiDeqOptions_setCondition(0xffff400be3b0)
+ODPI [55783] 2024-04-09 16:36:51.769: fn end dpiDeqOptions_setCondition(0xffff400be3b0) -> 0
+ODPI [55783] 2024-04-09 16:36:51.769: fn start dpiDeqOptions_setConsumerName(0xffff400be3b0)
+ODPI [55783] 2024-04-09 16:36:51.769: fn end dpiDeqOptions_setConsumerName(0xffff400be3b0) -> 0
+ODPI [55783] 2024-04-09 16:36:51.769: fn start dpiDeqOptions_setCorrelation(0xffff400be3b0)
+ODPI [55783] 2024-04-09 16:36:51.769: fn end dpiDeqOptions_setCorrelation(0xffff400be3b0) -> 0
+ODPI [55783] 2024-04-09 16:36:51.769: fn start dpiDeqOptions_setDeliveryMode(0xffff400be3b0)
+ODPI [55783] 2024-04-09 16:36:51.769: fn end dpiDeqOptions_setDeliveryMode(0xffff400be3b0) -> 0
+ODPI [55783] 2024-04-09 16:36:51.769: fn start dpiDeqOptions_setMode(0xffff400be3b0)
+ODPI [55783] 2024-04-09 16:36:51.769: fn end dpiDeqOptions_setMode(0xffff400be3b0) -> 0
+ODPI [55783] 2024-04-09 16:36:51.769: fn start dpiDeqOptions_setMsgId(0xffff400be3b0)
+ODPI [55783] 2024-04-09 16:36:51.769: fn end dpiDeqOptions_setMsgId(0xffff400be3b0) -> 0
+ODPI [55783] 2024-04-09 16:36:51.769: fn start dpiDeqOptions_setNavigation(0xffff400be3b0)
+ODPI [55783] 2024-04-09 16:36:51.769: fn end dpiDeqOptions_setNavigation(0xffff400be3b0) -> 0
+ODPI [55783] 2024-04-09 16:36:51.769: fn start dpiDeqOptions_setVisibility(0xffff400be3b0)
+ODPI [55783] 2024-04-09 16:36:51.769: fn end dpiDeqOptions_setVisibility(0xffff400be3b0) -> 0
+ODPI [55783] 2024-04-09 16:36:51.769: fn start dpiDeqOptions_setWait(0xffff400be3b0)
+ODPI [55783] 2024-04-09 16:36:51.769: fn end dpiDeqOptions_setWait(0xffff400be3b0) -> 0
+ODPI [55783] 2024-04-09 16:36:51.769: fn start dpiObjectType_createObject(0xffff400c39e0)
+ODPI [55783] 2024-04-09 16:36:51.769: fn end dpiObjectType_createObject(0xffff400c39e0) -> 0
+ODPI [55783] 2024-04-09 16:36:51.769: fn start dpiObject_setAttributeValue(0xffff400c3cc0)
+ODPI [55783] 2024-04-09 16:36:51.769: fn end dpiObject_setAttributeValue(0xffff400c3cc0) -> 0
+ODPI [55783] 2024-04-09 16:36:51.769: fn start dpiObject_setAttributeValue(0xffff400c3cc0)
+ODPI [55783] 2024-04-09 16:36:51.769: fn end dpiObject_setAttributeValue(0xffff400c3cc0) -> 0
+ODPI [55783] 2024-04-09 16:36:51.769: fn start dpiObject_setAttributeValue(0xffff400c3cc0)
+ODPI [55783] 2024-04-09 16:36:51.769: fn end dpiObject_setAttributeValue(0xffff400c3cc0) -> 0
+ODPI [55783] 2024-04-09 16:36:51.769: fn start dpiConn_newMsgProps(0xffff4000c660)
+ODPI [55783] 2024-04-09 16:36:51.769: fn end dpiConn_newMsgProps(0xffff4000c660) -> 0
+ODPI [55783] 2024-04-09 16:36:51.769: fn start dpiMsgProps_setDelay(0xffff400c3d10)
+ODPI [55783] 2024-04-09 16:36:51.769: fn end dpiMsgProps_setDelay(0xffff400c3d10) -> 0
+ODPI [55783] 2024-04-09 16:36:51.769: fn start dpiMsgProps_setExpiration(0xffff400c3d10)
+ODPI [55783] 2024-04-09 16:36:51.769: fn end dpiMsgProps_setExpiration(0xffff400c3d10) -> 0
+ODPI [55783] 2024-04-09 16:36:51.769: fn start dpiMsgProps_setPriority(0xffff400c3d10)
+ODPI [55783] 2024-04-09 16:36:51.769: fn end dpiMsgProps_setPriority(0xffff400c3d10) -> 0
+ODPI [55783] 2024-04-09 16:36:51.769: fn start dpiMsgProps_setPayloadObject(0xffff400c3d10)
+ODPI [55783] 2024-04-09 16:36:51.769: fn end dpiMsgProps_setPayloadObject(0xffff400c3d10) -> 0
+ODPI [55783] 2024-04-09 16:36:51.769: fn start dpiQueue_enqOne(0xffff400c3c00)
+ODPI [55783] 2024-04-09 16:36:51.787: fn end dpiQueue_enqOne(0xffff400c3c00) -> 0
+ODPI [55783] 2024-04-09 16:36:51.787: fn start dpiMsgProps_getMsgId(0xffff400c3d10)
+ODPI [55783] 2024-04-09 16:36:51.787: fn end dpiMsgProps_getMsgId(0xffff400c3d10) -> 0
+ODPI [55783] 2024-04-09 16:36:51.787: fn start dpiMsgProps_release(0xffff400c3d10)
+ODPI [55783] 2024-04-09 16:36:51.787: fn end dpiMsgProps_release(0xffff400c3d10) -> 0
+ODPI [55783] 2024-04-09 16:36:51.789: fn start dpiConn_commit(0xffff4000c660)
+ODPI [55783] 2024-04-09 16:36:51.813: fn end dpiConn_commit(0xffff4000c660) -> 0
+ODPI [55783] 2024-04-09 16:36:51.813: fn start dpiConn_getIsHealthy(0xffff4000c660)
+ODPI [55783] 2024-04-09 16:36:51.813: fn end dpiConn_getIsHealthy(0xffff4000c660) -> 0
+ODPI [55783] 2024-04-09 16:36:51.813: fn start dpiQueue_release(0xffff400c3c00)
+ODPI [55783] 2024-04-09 16:36:51.813: fn end dpiQueue_release(0xffff400c3c00) -> 0
+ODPI [55783] 2024-04-09 16:36:51.813: fn start dpiObjectAttr_release(0xffff400c3ac0)
+ODPI [55783] 2024-04-09 16:36:51.813: fn end dpiObjectAttr_release(0xffff400c3ac0) -> 0
+ODPI [55783] 2024-04-09 16:36:51.813: fn start dpiObjectAttr_release(0xffff400c3b60)
+ODPI [55783] 2024-04-09 16:36:51.813: fn end dpiObjectAttr_release(0xffff400c3b60) -> 0
+ODPI [55783] 2024-04-09 16:36:51.813: fn start dpiObjectType_release(0xffff400c39e0)
+ODPI [55783] 2024-04-09 16:36:51.813: fn end dpiObjectType_release(0xffff400c39e0) -> 0
+2024/04/09 16:36:51 enqueue
+ODPI [55783] 2024-04-09 16:36:51.813: fn start dpiConn_getIsHealthy(0xffff4000c660)
+ODPI [55783] 2024-04-09 16:36:51.813: fn end dpiConn_getIsHealthy(0xffff4000c660) -> 0
+ODPI [55783] 2024-04-09 16:36:51.813: fn start dpiConn_prepareStmt(0xffff4000c660)
+ODPI [55783] 2024-04-09 16:36:51.813: SQL SET TRANSACTION READ WRITE
+ODPI [55783] 2024-04-09 16:36:51.813: fn end dpiConn_prepareStmt(0xffff4000c660) -> 0
+ODPI [55783] 2024-04-09 16:36:51.813: fn start dpiStmt_getInfo(0xffff400c3de0)
+ODPI [55783] 2024-04-09 16:36:51.813: fn end dpiStmt_getInfo(0xffff400c3de0) -> 0
+ODPI [55783] 2024-04-09 16:36:51.813: fn start dpiStmt_execute(0xffff400c3de0)
+ODPI [55783] 2024-04-09 16:36:51.829: fn end dpiStmt_execute(0xffff400c3de0) -> 0
+ODPI [55783] 2024-04-09 16:36:51.829: fn start dpiStmt_getRowCount(0xffff400c3de0)
+ODPI [55783] 2024-04-09 16:36:51.829: fn end dpiStmt_getRowCount(0xffff400c3de0) -> 0
+ODPI [55783] 2024-04-09 16:36:51.829: fn start dpiStmt_release(0xffff400c3de0)
+ODPI [55783] 2024-04-09 16:36:51.830: fn end dpiStmt_release(0xffff400c3de0) -> 0
+ODPI [55783] 2024-04-09 16:36:51.830: fn start dpiConn_getObjectType(0xffff4000c660)
+ODPI [55783] 2024-04-09 16:36:51.847: fn end dpiConn_getObjectType(0xffff4000c660) -> 0
+ODPI [55783] 2024-04-09 16:36:51.848: fn start dpiObjectType_getInfo(0xffff400c3de0)
+ODPI [55783] 2024-04-09 16:36:51.848: fn end dpiObjectType_getInfo(0xffff400c3de0) -> 0
+ODPI [55783] 2024-04-09 16:36:51.848: fn start dpiObjectType_getAttributes(0xffff400c3de0)
+ODPI [55783] 2024-04-09 16:36:51.848: fn end dpiObjectType_getAttributes(0xffff400c3de0) -> 0
+ODPI [55783] 2024-04-09 16:36:51.848: fn start dpiObjectAttr_getInfo(0xffff400c3ec0)
+ODPI [55783] 2024-04-09 16:36:51.848: fn end dpiObjectAttr_getInfo(0xffff400c3ec0) -> 0
+ODPI [55783] 2024-04-09 16:36:51.848: fn start dpiObjectAttr_getInfo(0xffff400c3f60)
+ODPI [55783] 2024-04-09 16:36:51.848: fn end dpiObjectAttr_getInfo(0xffff400c3f60) -> 0
+ODPI [55783] 2024-04-09 16:36:51.848: fn start dpiConn_newQueue(0xffff4000c660)
+ODPI [55783] 2024-04-09 16:36:51.848: fn end dpiConn_newQueue(0xffff4000c660) -> 0
+ODPI [55783] 2024-04-09 16:36:51.848: fn start dpiQueue_getEnqOptions(0xffff400c4000)
+ODPI [55783] 2024-04-09 16:36:51.848: fn end dpiQueue_getEnqOptions(0xffff400c4000) -> 0
+ODPI [55783] 2024-04-09 16:36:51.848: fn start dpiEnqOptions_setDeliveryMode(0xffff400c3c90)
+ODPI [55783] 2024-04-09 16:36:51.848: fn end dpiEnqOptions_setDeliveryMode(0xffff400c3c90) -> 0
+ODPI [55783] 2024-04-09 16:36:51.848: fn start dpiEnqOptions_setTransformation(0xffff400c3c90)
+ODPI [55783] 2024-04-09 16:36:51.848: fn end dpiEnqOptions_setTransformation(0xffff400c3c90) -> 0
+ODPI [55783] 2024-04-09 16:36:51.848: fn start dpiEnqOptions_setVisibility(0xffff400c3c90)
+ODPI [55783] 2024-04-09 16:36:51.848: fn end dpiEnqOptions_setVisibility(0xffff400c3c90) -> 0
+ODPI [55783] 2024-04-09 16:36:51.848: fn start dpiQueue_getDeqOptions(0xffff400c4000)
+ODPI [55783] 2024-04-09 16:36:51.848: fn end dpiQueue_getDeqOptions(0xffff400c4000) -> 0
+ODPI [55783] 2024-04-09 16:36:51.848: fn start dpiDeqOptions_setTransformation(0xffff400be3b0)
+ODPI [55783] 2024-04-09 16:36:51.848: fn end dpiDeqOptions_setTransformation(0xffff400be3b0) -> 0
+ODPI [55783] 2024-04-09 16:36:51.848: fn start dpiDeqOptions_setCondition(0xffff400be3b0)
+ODPI [55783] 2024-04-09 16:36:51.848: fn end dpiDeqOptions_setCondition(0xffff400be3b0) -> 0
+ODPI [55783] 2024-04-09 16:36:51.848: fn start dpiDeqOptions_setConsumerName(0xffff400be3b0)
+ODPI [55783] 2024-04-09 16:36:51.848: fn end dpiDeqOptions_setConsumerName(0xffff400be3b0) -> 0
+ODPI [55783] 2024-04-09 16:36:51.848: fn start dpiDeqOptions_setCorrelation(0xffff400be3b0)
+ODPI [55783] 2024-04-09 16:36:51.848: fn end dpiDeqOptions_setCorrelation(0xffff400be3b0) -> 0
+ODPI [55783] 2024-04-09 16:36:51.848: fn start dpiDeqOptions_setDeliveryMode(0xffff400be3b0)
+ODPI [55783] 2024-04-09 16:36:51.848: fn end dpiDeqOptions_setDeliveryMode(0xffff400be3b0) -> 0
+ODPI [55783] 2024-04-09 16:36:51.848: fn start dpiDeqOptions_setMode(0xffff400be3b0)
+ODPI [55783] 2024-04-09 16:36:51.848: fn end dpiDeqOptions_setMode(0xffff400be3b0) -> 0
+ODPI [55783] 2024-04-09 16:36:51.848: fn start dpiDeqOptions_setMsgId(0xffff400be3b0)
+ODPI [55783] 2024-04-09 16:36:51.848: fn end dpiDeqOptions_setMsgId(0xffff400be3b0) -> 0
+ODPI [55783] 2024-04-09 16:36:51.848: fn start dpiDeqOptions_setNavigation(0xffff400be3b0)
+ODPI [55783] 2024-04-09 16:36:51.848: fn end dpiDeqOptions_setNavigation(0xffff400be3b0) -> 0
+ODPI [55783] 2024-04-09 16:36:51.848: fn start dpiDeqOptions_setVisibility(0xffff400be3b0)
+ODPI [55783] 2024-04-09 16:36:51.848: fn end dpiDeqOptions_setVisibility(0xffff400be3b0) -> 0
+ODPI [55783] 2024-04-09 16:36:51.848: fn start dpiDeqOptions_setWait(0xffff400be3b0)
+ODPI [55783] 2024-04-09 16:36:51.848: fn end dpiDeqOptions_setWait(0xffff400be3b0) -> 0
+ODPI [55783] 2024-04-09 16:36:51.848: fn start dpiObjectType_createObject(0xffff400c3de0)
+ODPI [55783] 2024-04-09 16:36:51.848: fn end dpiObjectType_createObject(0xffff400c3de0) -> 0
+ODPI [55783] 2024-04-09 16:36:51.848: fn start dpiObject_setAttributeValue(0xffff400c4090)
+ODPI [55783] 2024-04-09 16:36:51.848: fn end dpiObject_setAttributeValue(0xffff400c4090) -> 0
+ODPI [55783] 2024-04-09 16:36:51.848: fn start dpiObject_setAttributeValue(0xffff400c4090)
+ODPI [55783] 2024-04-09 16:36:51.848: fn end dpiObject_setAttributeValue(0xffff400c4090) -> 0
+ODPI [55783] 2024-04-09 16:36:51.848: fn start dpiObject_setAttributeValue(0xffff400c4090)
+ODPI [55783] 2024-04-09 16:36:51.848: fn end dpiObject_setAttributeValue(0xffff400c4090) -> 0
+ODPI [55783] 2024-04-09 16:36:51.848: fn start dpiConn_newMsgProps(0xffff4000c660)
+ODPI [55783] 2024-04-09 16:36:51.848: fn end dpiConn_newMsgProps(0xffff4000c660) -> 0
+ODPI [55783] 2024-04-09 16:36:51.848: fn start dpiMsgProps_setDelay(0xffff400c40e0)
+ODPI [55783] 2024-04-09 16:36:51.848: fn end dpiMsgProps_setDelay(0xffff400c40e0) -> 0
+ODPI [55783] 2024-04-09 16:36:51.848: fn start dpiMsgProps_setExpiration(0xffff400c40e0)
+ODPI [55783] 2024-04-09 16:36:51.848: fn end dpiMsgProps_setExpiration(0xffff400c40e0) -> 0
+ODPI [55783] 2024-04-09 16:36:51.848: fn start dpiMsgProps_setPriority(0xffff400c40e0)
+ODPI [55783] 2024-04-09 16:36:51.848: fn end dpiMsgProps_setPriority(0xffff400c40e0) -> 0
+ODPI [55783] 2024-04-09 16:36:51.848: fn start dpiMsgProps_setPayloadObject(0xffff400c40e0)
+ODPI [55783] 2024-04-09 16:36:51.848: fn end dpiMsgProps_setPayloadObject(0xffff400c40e0) -> 0
+ODPI [55783] 2024-04-09 16:36:51.848: fn start dpiQueue_enqOne(0xffff400c4000)
+ODPI [55783] 2024-04-09 16:36:51.863: fn end dpiQueue_enqOne(0xffff400c4000) -> 0
+ODPI [55783] 2024-04-09 16:36:51.863: fn start dpiMsgProps_getMsgId(0xffff400c40e0)
+ODPI [55783] 2024-04-09 16:36:51.863: fn end dpiMsgProps_getMsgId(0xffff400c40e0) -> 0
+ODPI [55783] 2024-04-09 16:36:51.863: fn start dpiMsgProps_release(0xffff400c40e0)
+ODPI [55783] 2024-04-09 16:36:51.864: fn end dpiMsgProps_release(0xffff400c40e0) -> 0
+ODPI [55783] 2024-04-09 16:36:51.864: fn start dpiConn_commit(0xffff4000c660)
+ODPI [55783] 2024-04-09 16:36:51.884: fn end dpiConn_commit(0xffff4000c660) -> 0
+ODPI [55783] 2024-04-09 16:36:51.884: fn start dpiConn_getIsHealthy(0xffff4000c660)
+ODPI [55783] 2024-04-09 16:36:51.884: fn end dpiConn_getIsHealthy(0xffff4000c660) -> 0
+ODPI [55783] 2024-04-09 16:36:51.884: fn start dpiQueue_release(0xffff400c4000)
+ODPI [55783] 2024-04-09 16:36:51.884: fn end dpiQueue_release(0xffff400c4000) -> 0
+ODPI [55783] 2024-04-09 16:36:51.884: fn start dpiObjectAttr_release(0xffff400c3ec0)
+ODPI [55783] 2024-04-09 16:36:51.884: fn end dpiObjectAttr_release(0xffff400c3ec0) -> 0
+ODPI [55783] 2024-04-09 16:36:51.884: fn start dpiObjectAttr_release(0xffff400c3f60)
+ODPI [55783] 2024-04-09 16:36:51.884: fn end dpiObjectAttr_release(0xffff400c3f60) -> 0
+ODPI [55783] 2024-04-09 16:36:51.884: fn start dpiObjectType_release(0xffff400c3de0)
+ODPI [55783] 2024-04-09 16:36:51.884: fn end dpiObjectType_release(0xffff400c3de0) -> 0
